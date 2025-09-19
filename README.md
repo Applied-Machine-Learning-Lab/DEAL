@@ -1,12 +1,40 @@
-# DEAL
 
-This project provides two main models: **T5** and **LLaMA**.
-Each supporting three types of tasks:
-- **TC** 
-- **Standard** 
-- **Long** 
+<h1 align="center">DEAL</h1>
+<p align="center">
+  <b>Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning</b>
+</p>
+
+<p align="center">
+  <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-%E2%89%A53.10-blue"></a>
+  <a href="#"><img alt="Frameworks" src="https://img.shields.io/badge/Models-T5%20%7C%20LLaMA-8A2BE2"></a>
+  <a href="#"><img alt="Tasks" src="https://img.shields.io/badge/Tasks-TC%20%7C%20Standard%20%7C%20Long-ff8c00"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-black"></a>
+</p>
+
+<h3 align="center">✨ Minimal Data → Maximum Retention ✨</h3>
+
+<p align="center">
+  <a href="#task-overview"><img alt="Go to Tasks" src="https://img.shields.io/badge/Explore-Tasks-5cb85c"></a>
+  <a href="#models-and-usage"><img alt="Go to Usage" src="https://img.shields.io/badge/Quickstart-Usage-1e90ff"></a>
+</p>
+
+
+## 📢 Exciting news  
+Our paper has been **accepted by NeurIPS 2025** 🎉🎓  
 
 ---
+
+This project provides two main models: **T5** and **LLaMA**, each supporting three types of tasks:  
+🚀 **TC** • 📊 **Standard** • ⏳ **Long**
+
+---
+
+## Framework
+
+<p align="center">
+  <img src="figures/image.png" alt="Framework of DEAL" width="760">
+</p>
+
 
 ## Environment Setup
 
@@ -80,4 +108,7 @@ bash scripts_llama/long.sh > logs_and_outputs_llama/long/logs/train_and_infer.lo
 - Trained models are saved in the corresponding `logs_and_outputs/` or `logs_and_outputs_llama/outputs/` directories.
 - Prediction results for each task are saved in `outputs/TASK_NAME/predict_results.json`.
 - Training and inference logs are saved in `logs/train_and_infer.log`.
+
+
+
 
