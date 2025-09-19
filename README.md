@@ -1,6 +1,7 @@
 # DEAL
 
-This project provides two main models: **T5** and **LLaMA**, each supporting three types of tasks:
+This project provides two main models: **T5** and **LLaMA**.
+Each supporting three types of tasks:
 - **TC** 
 - **Standard** 
 - **Long** 
